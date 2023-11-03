@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_cN9qAXp7Ee6pYrzmqHi-DA" guid="_cN9qAXp7Ee6pYrzmqHi-DA"/>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_cNzR8Hp7Ee6pYrzmqHi-DA" name="pdmc" guid="_cNzR8Hp7Ee6pYrzmqHi-DA">
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cNzR8Xp7Ee6pYrzmqHi-DA" name="Content" guid="_cNzR8Xp7Ee6pYrzmqHi-DA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cNzR8np7Ee6pYrzmqHi-DA" name="Categories" guid="_cNzR8np7Ee6pYrzmqHi-DA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cNzR83p7Ee6pYrzmqHi-DA" name="Domains" guid="_cNzR83p7Ee6pYrzmqHi-DA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cNzR9Hp7Ee6pYrzmqHi-DA" name="Disciplines" guid="_cNzR9Hp7Ee6pYrzmqHi-DA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cNzR9Xp7Ee6pYrzmqHi-DA" name="RoleSets" guid="_cNzR9Xp7Ee6pYrzmqHi-DA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cNzR9np7Ee6pYrzmqHi-DA" name="WP Types" guid="_cNzR9np7Ee6pYrzmqHi-DA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cNzR93p7Ee6pYrzmqHi-DA" name="Tools" guid="_cNzR93p7Ee6pYrzmqHi-DA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cNzR-Hp7Ee6pYrzmqHi-DA" name="StandardCategories" guid="_cNzR-Hp7Ee6pYrzmqHi-DA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cNzR-Xp7Ee6pYrzmqHi-DA" name="CustomCategories" guid="_cNzR-Xp7Ee6pYrzmqHi-DA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cNzR-np7Ee6pYrzmqHi-DA" name="Hidden" guid="_cNzR-np7Ee6pYrzmqHi-DA">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_cNzR-3p7Ee6pYrzmqHi-DA" name="Custom Categories" guid="_cNzR-3p7Ee6pYrzmqHi-DA" categorizedElements="_rt9XsHp8Ee6pYrzmqHi-DA"/>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_rt9XsHp8Ee6pYrzmqHi-DA" name="vista" guid="_rt9XsHp8Ee6pYrzmqHi-DA" presentationName="new_custom_category" categorizedElements="_uTX6wHp8Ee6pYrzmqHi-DA"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_uTX6wHp8Ee6pYrzmqHi-DA" name="general" guid="_uTX6wHp8Ee6pYrzmqHi-DA" presentationName="general" categorizedElements="_jMC2cHp7Ee6pYrzmqHi-DA _GSh4AHp8Ee6pYrzmqHi-DA _TeTVwHp8Ee6pYrzmqHi-DA __6QuYHp7Ee6pYrzmqHi-DA">
+            <methodElementProperty xmi:id="_vP0U4Hp8Ee6pYrzmqHi-DA" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cNzR_Hp7Ee6pYrzmqHi-DA" name="CoreContent" guid="_cNzR_Hp7Ee6pYrzmqHi-DA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gD7O8Hp7Ee6pYrzmqHi-DA" name="new_content_package" guid="_gD7O8Hp7Ee6pYrzmqHi-DA">
+          <methodElementProperty xmi:id="_gD7O8Xp7Ee6pYrzmqHi-DA" name="pkg_loadCheck" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_jMC2cHp7Ee6pYrzmqHi-DA" name="analista" guid="_jMC2cHp7Ee6pYrzmqHi-DA" presentationName="analista" briefDescription="el analista se encarga de ...">
+            <methodElementProperty xmi:id="_Ng140Hp8Ee6pYrzmqHi-DA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="__6QuYHp7Ee6pYrzmqHi-DA" name="identificar_las_funcionalidades" guid="__6QuYHp7Ee6pYrzmqHi-DA" presentationName="identificar las funcionalidades" briefDescription="las funcionalidades" performedBy="_jMC2cHp7Ee6pYrzmqHi-DA" mandatoryInput="_TeTVwHp8Ee6pYrzmqHi-DA">
+            <methodElementProperty xmi:id="_NK8hUHp8Ee6pYrzmqHi-DA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_GSh4AHp8Ee6pYrzmqHi-DA" name="detallar_las_funcionalidades" guid="_GSh4AHp8Ee6pYrzmqHi-DA" presentationName="detallar las funcionalidades" briefDescription="las funcionalidades " performedBy="_jMC2cHp7Ee6pYrzmqHi-DA" mandatoryInput="_TeTVwHp8Ee6pYrzmqHi-DA">
+            <methodElementProperty xmi:id="_KeeUAHp8Ee6pYrzmqHi-DA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_TeTVwHp8Ee6pYrzmqHi-DA" name="especificacion" guid="_TeTVwHp8Ee6pYrzmqHi-DA" presentationName="especificacion" briefDescription="las especificaciones de funcionalidades">
+            <methodElementProperty xmi:id="_ZGRq4Hp8Ee6pYrzmqHi-DA" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_cNzR_Xp7Ee6pYrzmqHi-DA" name="CapabilityPatterns" guid="_cNzR_Xp7Ee6pYrzmqHi-DA"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_cNzR_np7Ee6pYrzmqHi-DA" name="DeliveryProcesses" guid="_cNzR_np7Ee6pYrzmqHi-DA"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_cNzR_3p7Ee6pYrzmqHi-DA" name="ProcessContributions" guid="_cNzR_3p7Ee6pYrzmqHi-DA"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>
